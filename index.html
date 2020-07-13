@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "api2.branch.io/v1/cpid", true);
+  xhttp.open("GET", "https://www.api2.branch.io/v1/cpid", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
