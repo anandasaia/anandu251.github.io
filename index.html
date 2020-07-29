@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "http://suggests.go.mail.ru/sg_main?compl=1&empty_q_trends=1&q=&platform=windows&src=main&ush=1&v=3", true);
+  xhttp.open("GET", "https://www.suggests.go.mail.ru/sg_main?compl=1&empty_q_trends=1&q=&platform=windows&src=main&ush=1&v=3", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
